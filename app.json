@@ -1,0 +1,37 @@
+{
+    "name": "LearnMate",
+    "description": "Agentic AI for Personalized Course Pathways — an AI coach that assesses a student's skill level and stated goals, then builds a course roadmap that adapts over time based on progress and preference, powered by IBM Granite via IBM watsonx.ai.",
+    "version": "1.0.0",
+    "problemStatement": "Problem Statement No. 12 — Agentic AI for Personalized Course Pathways",
+    "domain": "Education / EdTech",
+    "author": {
+        "name": "Theertha P Nair",
+        "institution": "GITAM (Deemed to be University), Hyderabad",
+        "department": "Computer Science and Engineering"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Theertha1507/LearnMate"
+    },
+    "liveDemo": {
+        "frontend": "https://learnmate-frontend-delta.vercel.app",
+        "backend": "https://learnmate-backend-1.onrender.com"
+    },
+    "technologies": [
+        "React",
+        "Node.js",
+        "Express",
+        "IBM watsonx.ai",
+        "IBM Granite (granite-4-h-small)",
+        "IBM Cloud Lite (Watson Machine Learning Runtime)",
+        "Retrieval-Augmented Generation (RAG)"
+    ],
+    "features": [
+        "Interactive skill assessment that determines the learner's starting level",
+        "RAG-based course retrieval grounded in a structured knowledge base",
+        "Preference-driven course recommendations based on student goals",
+        "Adaptive roadmap replanning when course progress is updated",
+        "Full-stack application with deployed frontend and backend"
+    ],
+    "license": "MIT"
+}
